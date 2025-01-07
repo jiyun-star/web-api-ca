@@ -13,9 +13,12 @@ import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Link } from "react-router-dom";
 
+
 const Offset = styled('div')(({ theme }) => theme.mixins.toolbar);
 
 const SiteHeader = ({ history }) => {
+
+
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
 
@@ -25,6 +28,7 @@ const SiteHeader = ({ history }) => {
   const navigate = useNavigate();
 
   const menuOptions = [
+    { label: "login", path: "/login" },
     { label: "Upcoming", path: "/movies/upcoming" },
     { label: "Top Rated", path: "/movies/toprated" },
     { label: "Favorites", path: "/movies/favorites" },

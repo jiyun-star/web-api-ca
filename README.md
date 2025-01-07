@@ -6,14 +6,14 @@ Name: Jiyun Kwon
 
 A bullet-point list of the ADDITIONAL features you have implemented in the API **THAT WERE NOT IN THE LABS** (or modifications to existing features)
  
- + Feature 1 
- + Feature 2 
- + Feature 3 
- + etc
+ + upcoming
+ + genre 
+ + toprated
+
+
 
 ## Setup requirements.
 
-[ Outline any non-standard setup steps necessary to run your app locally after cloning the repo.]
 
 ## API Configuration
 

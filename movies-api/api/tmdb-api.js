@@ -18,7 +18,7 @@ export const getUpcomingMovies = async () => {
 export const getGenres= async () => {
     try {
         const response = await fetch(
-            `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.TMDB_KEY}"&language=en-US`
+            `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.TMDB_KEY}&language=en-US`
         );
 
         if (!response.ok) {
